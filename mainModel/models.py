@@ -1,6 +1,8 @@
 from django.db import models
 from djangotoolbox.fields import ListField, EmbeddedModelField
 # Create your models here.
+#San Antonio Abadn n 29
+#av de la granjas esq cultura romana, u. hab. rosario dos.
 
 class Alumno(models.Model):
 	matricula = models.CharField(max_length = 20)
